@@ -14,8 +14,8 @@ function calcReset () {
     });
 
     document.querySelectorAll('.prise').forEach((item) => {
-        item.querySelector('span').innerHTML = ''
-        item.querySelector('li').classList.add('none')
+        item.querySelector('span').innerHTML = '0'
+        // item.querySelector('li').classList.add('none')
     });
 
     document.querySelectorAll('.calc__card__human__count').forEach((list) => {

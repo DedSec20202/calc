@@ -292,6 +292,12 @@ legend {
   column-gap: 6px;
   font-size: 12px;
 }
+.container .box-center .calc__content .calculate p {
+  text-align: center;
+  padding-top: 10px;
+  color: red;
+  font-size: 18px;
+}
 
 @media (max-width: 580px) {
   .calc__cards {
